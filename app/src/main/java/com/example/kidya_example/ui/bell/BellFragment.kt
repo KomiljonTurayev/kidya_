@@ -26,7 +26,9 @@ class BellFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
         imageBackHome.setOnClickListener {
+            //dewdewdw
             view.findNavController().popBackStack(R.id.nav_home,false)
         }
 
